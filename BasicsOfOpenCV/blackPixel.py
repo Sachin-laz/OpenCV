@@ -1,9 +1,9 @@
 import cv2
 
-path = "/home/sxr19/OpenCV/RefImages/"
+path = "/home/qaasus2/OpenCV/refImage"
 
 if __name__ == "__main__":
-    image = cv2.imread(f"{path}/Sample.jpg")
+    image = cv2.imread(f"{path}/single_frame_130.jpg")
 
     pixel = image[800, 700]
 

@@ -1,10 +1,9 @@
 import cv2
 
 path = "/home/qaasus2/OpenCV/refImage"
-
+image = cv2.imread(f"{path}/single_frame_130.jpg")
 if __name__ == "__main__":
     try:
-        image = cv2.imread(f"{path}/single_frame_130.jpg")
         if image is None:
             print("FAIL: Image could not be loaded")
         else:
